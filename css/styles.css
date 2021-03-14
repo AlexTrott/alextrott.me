@@ -1,0 +1,43 @@
+body {
+  background: #101010;
+  font-family: 'Work Sans', sans-serif;
+  color: #FFFFFF;
+  padding-top: 6em;
+}
+.container {
+  max-width: 760px;
+}
+.intro {
+  padding: 2em 0 1em 0;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 38px;
+  line-height: 46px;
+}
+.profile, .contact {
+  padding-bottom: 1em;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 34px;
+}
+a:link {
+  color: #FF8D00;
+  text-decoration: none;
+  font-weight: 400;
+}
+a:visited {
+  color: #FF8D00;
+}
+a:hover, a:focus {
+  color: #FF8D00;
+  text-decoration: none;
+}
+a:active {
+}
+.button {
+  border: 0.1rem solid #FF8D00;
+}
+.button.button-outline {
+  color: #FF8D00 
+}
